@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.Problems.Anagram;
-import org.example.Problems.MinSizeSubArray;
-import org.example.Problems.NumMatrix;
-import org.example.Problems.SpecialPositionInBinaryMatrix;
+import org.example.Problems.*;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
@@ -26,10 +23,19 @@ public class Main {
 //        matrix.numSpecialOp(mat);
 //        MinSizeSubArray minSizeSubArray = new MinSizeSubArray();
 //        minSizeSubArray.minSubArrayLenSlide(11, array);
-        int [][] mat = {{3,0,1,4,2},{5,6,3,2,1},{1,2,0,1,5},{4,1,0,1,7},{1,0,3,0,5}};
-        NumMatrix numMatrix = new NumMatrix(mat);
-        numMatrix.sumRegionAgain(2,1,4,3);
-        numMatrix.sumRegionAgain(1,1,2,2);
-        numMatrix.sumRegionAgain(1,2,2,4);
+//        int [][] mat = {{3,0,1,4,2},{5,6,3,2,1},{1,2,0,1,5},{4,1,0,1,7},{1,0,3,0,5}};
+//        NumMatrix numMatrix = new NumMatrix(mat);
+//        numMatrix.sumRegionAgain(2,1,4,3);
+//        numMatrix.sumRegionAgain(1,1,2,2);
+//        numMatrix.sumRegionAgain(1,2,2,4);
+
+//        LongesSubStrWORepeatingChar obj = new LongesSubStrWORepeatingChar();
+//        obj.lengthOfLongestSubstring("aab");
+
+        int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+//        ContainerWithMostWater  container = new ContainerWithMostWater();
+//        container.maxAreaOptimized(height);
+        TrappingRainWater  trappingRainWater = new TrappingRainWater();
+        trappingRainWater.trap(height);
     }
 }
