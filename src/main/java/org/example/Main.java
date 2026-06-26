@@ -32,10 +32,18 @@ public class Main {
 //        LongesSubStrWORepeatingChar obj = new LongesSubStrWORepeatingChar();
 //        obj.lengthOfLongestSubstring("aab");
 
-        int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+//        int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
 //        ContainerWithMostWater  container = new ContainerWithMostWater();
 //        container.maxAreaOptimized(height);
-        TrappingRainWater  trappingRainWater = new TrappingRainWater();
-        trappingRainWater.trap(height);
+//        TrappingRainWater  trappingRainWater = new TrappingRainWater();
+//        trappingRainWater.trap(height);
+
+//        int[] prices = {7,1,5,3,6,4};
+//        BestTimeBuySellStock  bestTimeBuySellStock = new BestTimeBuySellStock();
+//        bestTimeBuySellStock.maxProfit(prices);
+
+        int[] nums = {1,2,3,4};
+        ProductOfArrayExceptSelf product  = new ProductOfArrayExceptSelf();
+        product.productExceptSelf(nums);
     }
 }
