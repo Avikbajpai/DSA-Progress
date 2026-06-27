@@ -42,8 +42,20 @@ public class Main {
 //        BestTimeBuySellStock  bestTimeBuySellStock = new BestTimeBuySellStock();
 //        bestTimeBuySellStock.maxProfit(prices);
 
-        int[] nums = {1,2,3,4};
-        ProductOfArrayExceptSelf product  = new ProductOfArrayExceptSelf();
-        product.productExceptSelf(nums);
+//        int[] nums = {1,2,3,4};
+//        ProductOfArrayExceptSelf product  = new ProductOfArrayExceptSelf();
+//        product.productExceptSelf(nums);
+
+//        SelfDividingNumbers  s = new SelfDividingNumbers();
+//        s.selfDividingNumbers(1,22);
+
+//        int[] arr = {2,2,2,2,5,5,5,8};
+//        SubArraysSizeKAndAvgGreater  obj = new SubArraysSizeKAndAvgGreater();
+//        obj.numOfSubarraysOps(arr,3,4);
+
+        int[] arr = {100,4,200,1,3,2};
+        LongestConsecutiveSubsequence subsequence = new LongestConsecutiveSubsequence();
+        subsequence.longestConsecutive(arr);
+
     }
 }

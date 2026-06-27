@@ -21,6 +21,7 @@ public class ProductOfArrayExceptSelf {
             rightProduct = suffixProduct[i];
             result[i] = leftProduct * rightProduct;
         }
+
         return result;
     }
 }
