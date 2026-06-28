@@ -53,9 +53,22 @@ public class Main {
 //        SubArraysSizeKAndAvgGreater  obj = new SubArraysSizeKAndAvgGreater();
 //        obj.numOfSubarraysOps(arr,3,4);
 
-        int[] arr = {100,4,200,1,3,2};
-        LongestConsecutiveSubsequence subsequence = new LongestConsecutiveSubsequence();
-        subsequence.longestConsecutive(arr);
+//        int[] arr = {100,4,200,1,3,2};
+//        LongestConsecutiveSubsequence subsequence = new LongestConsecutiveSubsequence();
+//        subsequence.longestConsecutive(arr);
 
+//        int[] nums = {0,1,0};
+//        ContiguousArray arr = new ContiguousArray();
+//        arr.findMaxLength(nums);
+
+//        int[] nums = {1,-1,0};
+//        SubarraySumEqualsK sum = new SubarraySumEqualsK();
+//        sum.subarraySum(nums, 0);
+
+        char[][] arr = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
+        char[][] arr2 = {{'8','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
+
+        ValidSudoku sudoku = new ValidSudoku();
+        sudoku.isValidSudoku(arr);
     }
 }
